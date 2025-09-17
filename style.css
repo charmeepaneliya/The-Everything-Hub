@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+   background-color: #e6e5e4;
+}
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #e9c7b9;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  background-color: #ae8989;
+ 
+  
+}
+
+nav .navbar-list > li > a {
+  text-decoration: none;
+  color: white;
+ 
+}
+
+/* blog section */
+
+.blogs1{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.blog-content1{
+    /* border: 1px solid red; */
+    width: 600px
+}
+.blog-content1 > p{
+    margin-top: 50px;
+}
+.blog-img{
+    /* border: 1px solid red; */
+   
+}
+.blog-img > img{
+    height: 500px;
+    width: 700px;
+    background-position: cover;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* my frist trip */
+.blog-poster{
+    margin-top: 40px;
+    background-color: #ae8989;
+    color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.frist-trip > h1{
+    text-align: center;
+    padding: 20px;
+}
+.blog-poster > img{
+     height: 500px;
+    width: 100%;
+    background-position: cover;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:1200px) {
+    header {
+  
+  padding: 25px;
+  background-color: #c69e8d;
+  
+}
+nav ul {
+ 
+  gap: 23px;
+  height: 50px;
+  padding: 10px;
+}
+
+/* blog section */
+.blog-content1{
+    
+    width:500px;
+}
+.blog-img > img{
+    width: 500px;
+}
+
+.frist-trip > h1{
+    font-size:35px ;
+}
+.frist-trip-content{
+    padding: 10px;
+}
+.frist-trip > img{
+    width: 900px;
+    height: 500px;
+}
+
+
+}
+
+@media screen and (max-width:768px) {
+
+header {
+  
+  padding: 15px;
+  font-size: 15px;
+  
+}
+nav ul {
+ 
+  gap: 20px;
+  height: 30px;
+  padding: 7px;
+}
+
+/* blog section */
+
+.blogs1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.blog-img{
+    margin-top: 20px;
+}
+.blog-content1{
+    font-size: 15px;
+    width: 500px;
+}
+.blog-img > img{
+    width: 500px;
+    height: 450px;
+}
+}
+
+@media screen and (max-width:500px) {
+ header{
+  padding: 13px;
+  font-size: 13px;
+
+ }
+ nav{
+    display: none;
+ }
+/* blog section */
+ .blog-content1{
+    font-size: 15px;
+    width: 350px;
+}
+.blog-img > img{
+    width: 350px;
+    height: 350px;
+}
+ 
+}
+
