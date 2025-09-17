@@ -71,6 +71,9 @@ nav .navbar-list > li > a {
     text-align: center;
     padding: 20px;
 }
+.frist-trip-content > p{
+padding: 13px;
+}
 .blog-poster > img{
      height: 500px;
     width: 100%;
